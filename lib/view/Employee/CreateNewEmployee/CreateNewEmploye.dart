@@ -286,7 +286,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         left: 15, right: 15, top: 20, bottom: 10),
                     child: newTaskField(
                       controller: usernameController,
-                      label: "User Name",
+                      label: "User Name(required)",
                       hintText: "User Name",
                       keyboardType: TextInputType.text,
                     ),
@@ -296,7 +296,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         left: 15, right: 15, top: 10, bottom: 10),
                     child: newTaskField(
                       controller: passwordController,
-                      label: "Password",
+                      label: "Password(required)",
                       hintText: "Password",
                       keyboardType: TextInputType.visiblePassword,
                     ),
@@ -306,7 +306,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         left: 15, right: 15, top: 10, bottom: 10),
                     child: newTaskField(
                       controller: emailController,
-                      label: "Email",
+                      label: "Email(required)",
                       hintText: "Email",
                       keyboardType: TextInputType.emailAddress,
                     ),
@@ -336,7 +336,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         left: 15, right: 15, top: 10, bottom: 10),
                     child: newTaskField(
                       controller: idController,
-                      label: "Iqama or ID",
+                      label: "Iqama or ID(required)",
                       hintText: "Iqama or ID",
                       keyboardType: TextInputType.number,
                     ),
@@ -347,7 +347,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         left: 15, right: 15, top: 10, bottom: 10),
                     child: newTaskField(
                       controller: passPortNum,
-                      label: "Passport number",
+                      label: "Passport number(required)",
                       hintText: "Passport number",
                       keyboardType: TextInputType.number,
                     ),
@@ -421,7 +421,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         EdgeInsets.only(left: 15, right: 15, top: 0, bottom: 0),
                     child: CustomTextField(
                         controller: joiningController,
-                        label: "Joining Date",
+                        label: "Joining Date(required)",
                         keyboardType: TextInputType.datetime,
                         hintText: "Joining Date",
                         suffix: Icons.calendar_today,
@@ -457,7 +457,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         EdgeInsets.only(left: 15, right: 15, top: 0, bottom: 0),
                     child: CustomTextField(
                         controller: contractController,
-                        label: "Contract End",
+                        label: "Contract End(required)",
                         keyboardType: TextInputType.datetime,
                         hintText: "Contract End",
                         suffix: Icons.calendar_today,
@@ -494,7 +494,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         EdgeInsets.only(left: 15, right: 15, top: 0, bottom: 0),
                     child: CustomTextField(
                         controller: insuranceStartController,
-                        label: "Insurance Date Start",
+                        label: "Insurance Date Start(required)",
                         keyboardType: TextInputType.datetime,
                         hintText: "Insurance Date Start",
                         suffix: Icons.calendar_today,
@@ -530,7 +530,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         EdgeInsets.only(left: 15, right: 15, top: 0, bottom: 0),
                     child: CustomTextField(
                         controller: insuranceEndController,
-                        label: "Insurance Date Start",
+                        label: "Insurance Date Start(required)",
                         keyboardType: TextInputType.datetime,
                         hintText: "Insurance Date Start",
                         suffix: Icons.calendar_today,
@@ -598,7 +598,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         EdgeInsets.only(left: 20, right: 20, top: 0, bottom: 0),
                     child: CustomTextField(
                         controller: iqamaenddateController,
-                        label: "iqamaenddate",
+                        label: "iqamaenddate(required)",
                         keyboardType: TextInputType.datetime,
                         hintText: "iqamaenddate",
                         suffix: Icons.calendar_today,
@@ -619,7 +619,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         EdgeInsets.only(left: 20, right: 20, top: 0, bottom: 0),
                     child: CustomTextField(
                         controller: passportenddateController,
-                        label: "passportenddate",
+                        label: "passportenddate(required)",
                         keyboardType: TextInputType.datetime,
                         hintText: "passportenddate",
                         suffix: Icons.calendar_today,
@@ -755,7 +755,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         left: 15, right: 15, top: 10, bottom: 10),
                     child: newTaskField(
                       controller: salaryController,
-                      label: "Basic Salary",
+                      label: "Basic Salary(required)",
                       hintText: "Basic Salary",
                       keyboardType: TextInputType.number,
                     ),
@@ -772,7 +772,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         width: MediaQuery.of(context).size.width / 2 - 15,
                         child: newTaskField(
                             controller: workingStartController,
-                            label: "Working Start time",
+                            label: "Working Start time(required)",
                             hintText: "Start time",
                             keyboardType: TextInputType.number,
                             icon: InkWell(
@@ -793,7 +793,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         width: MediaQuery.of(context).size.width / 2 - 15,
                         child: newTaskField(
                             controller: workingEndController,
-                            label: "Working End time",
+                            label: "Working End time(required)",
                             hintText: "End time",
                             keyboardType: TextInputType.number,
                             icon: InkWell(
@@ -887,7 +887,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                         width: MediaQuery.of(context).size.width / 2 - 15,
                         child: newTaskField(
                           controller: phoneController,
-                          label: "Phone",
+                          label: "Phone(required)",
                           hintText: "Phone",
                           keyboardType: TextInputType.number,
                         ),
@@ -964,7 +964,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                                         width: 90, child: Text(value2.name)),
                                   );
                                 }).toList(),
-                                hintText: "Choose from Employees",
+                                hintText: "Choose from Employees(required)",
                                 value: subEmployeesValue ?? null,
                                 label: "Sub employees"),
                           );
@@ -1026,7 +1026,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                                         width: 90, child: Text(value2.name)),
                                   );
                                 }).toList(),
-                                hintText: "Choose from Employees",
+                                hintText: "Choose from Employees(required)",
                                 value: vacationEmployeesValue ?? null,
                                 label: "Vacation Approval"),
                           );
@@ -1057,7 +1057,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                                         width: 90, child: Text(value2.name)),
                                   );
                                 }).toList(),
-                                hintText: "Choose from Employees",
+                                hintText: "Choose from Employees(required)",
                                 value: overtimeEmployeesValue ?? null,
                                 label: "Overtime Approval"),
                           );
@@ -1088,7 +1088,7 @@ class _CreateNewEmlpoyeState extends State<CreateNewEmlpoye> {
                                         width: 90, child: Text(value2.name)),
                                   );
                                 }).toList(),
-                                hintText: "Choose from Employees",
+                                hintText: "Choose from Employees(required)",
                                 value: reportEmployeesValue ?? null,
                                 label: "Overtime Approval"),
                           );

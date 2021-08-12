@@ -295,6 +295,7 @@ class _CreateReportState extends State<CreateReport> {
                                         ),
                                         TextField(
                                           controller: percentage[index],
+                                          keyboardType: TextInputType.number,
                                           decoration: InputDecoration(
                                             suffixIcon: Container(
                                                 width: 50,

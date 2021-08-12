@@ -174,6 +174,13 @@ class _AddLocationScreenState extends State<AddLocationScreen> {
                             "location": locationNameController.text,
                             "lat": result.latLng.latitude,
                             "lang": result.latLng.longitude,
+                          }).then((value){
+                            Fluttertoast.showToast(
+                                msg: "Location Added Success",
+                                toastLength: Toast.LENGTH_LONG,
+                                gravity: ToastGravity.BOTTOM,
+                                timeInSecForIosWeb: 3,
+                                fontSize: 16.0);
                           });
                         }))
                 : Center(child: CircularProgressIndicator())
